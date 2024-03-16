@@ -2,7 +2,7 @@ import React from "react";
 import { createRoot } from "react-dom/client";
 import { App } from "./App";
 import { createGlobalStyle } from "styled-components";
-//TODO: Aprender REACT
+//TODO: Aprender REACT!!
 
 const Global = createGlobalStyle`
   body {
