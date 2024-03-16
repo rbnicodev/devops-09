@@ -7,5 +7,9 @@ jobs:
   greet:
     runs-on: ubuntu-latest
     steps:
-      - name: Greet the User
-        run: echo "Hello World!"
+        - run: echo "Listado de archivos antes del checkout"
+        - run: ls -l
+        - uses: actions/checkout@v2
+        - run: echo "Listado de archivos DESPUÉS del checkout"
+        - run: ls -l
+        
