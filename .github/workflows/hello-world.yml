@@ -12,8 +12,5 @@ jobs:
         - run: |
             echo "Listado de archivos antes del checkout"
             echo "by $MY_NAME"
-        - run: ls -l
-        - uses: actions/checkout@v2
-        - run: echo "Listado de archivos DESPUÉS del checkout"
-        - run: ls -l
+            echo $GITHUB_ACTTOR
         
